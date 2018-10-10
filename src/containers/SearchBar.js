@@ -35,6 +35,7 @@ class SearchBar extends Component {
             className="form-control"
             name="term"
             value={this.state.term}
+            required
           />
 
           <span className="input-group-btn">
